@@ -69,6 +69,8 @@ Dự án này bao gồm hai ứng dụng cụ thể sử dụng công nghệ nh�
     ```bash
     cd plant-detect/app
     python main.py  # chạy webapp
+  -**Đối với Dự đoán bệnh ở cây trồng**
+  [Tải model tại đây]([https://link-google-drive-cua-ban](https://drive.google.com/drive/folders/18UxVZ4qUlmlw8Qv4RzGmNocFWONkJT7j?usp=sharing))
 ## Đóng góp
 1. Trần Văn Nam - 2115239 - Ứng dụng cảnh báo buồn ngủ khi lái xe
 2. Trương Tấn Diệm - 2111817 - Dự đoán bệnh ở cây trồng
