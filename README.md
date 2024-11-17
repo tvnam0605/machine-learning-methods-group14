@@ -68,7 +68,7 @@ Dự án này bao gồm hai ứng dụng cụ thể sử dụng công nghệ nh�
 2. Dự đoán bệnh ở cây trồng
     ```bash
     cd plant-detect/app
-    python main.py  # chạy webapp
+    streamlit run main.py  # chạy webapp
   - **Đối với Dự đoán bệnh ở cây trồng**  
   [Tải model tại đây](https://drive.google.com/drive/folders/18UxVZ4qUlmlw8Qv4RzGmNocFWONkJT7j?usp=sharing)
 
