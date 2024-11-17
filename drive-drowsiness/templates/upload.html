@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tải hình ảnh - video</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/upload.css') }}">
+
+</head>
+<body>
+    <h1>Tải lên ảnh hoặc video</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept="video/*,image/*" required><br>
+        <button type="submit" class="btn">Tải lên - Dự đoán</button>
+    </form>
+    <br>
+    <a href="/">Trang chủ</a>
+</body>
+</html>

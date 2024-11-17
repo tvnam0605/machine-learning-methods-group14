@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drive Drowsiness</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+</head>
+<body>
+    <h1>Hệ thống phát hiện buồn ngủ khi lái xe</h1>
+  
+
+    <div class="container">
+        <h2>Giới thiệu về dự án</h2>
+        <p>Hệ thống này phát hiện tình trạng buồn ngủ của tài xế bằng cách phân tích chuyển động của mắt. Nó sử dụng học máy để xác định xem tài xế có đang thức, ngáp hay nhắm mắt.</p>
+        
+        <h3>Chọn chức năng:</h3>
+        <button class="btn" onclick="window.location.href='/upload'">Tải Video/Ảnh</button>
+        <button class="btn" onclick="window.location.href='/video_feed'">Camera</button>
+    </div>
+</body>
+</html>

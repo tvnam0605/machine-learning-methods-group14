@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kết quả nhận diện</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/result.css') }}">
+</head>
+<body>
+    <h1>Kết quả nhận diện</h1>
+
+    <h3>Trạng thái phát hiện:</h3>
+    <ul>
+        {% for res in result %}
+        <li>{{ res }}</li>
+        {% endfor %}
+    </ul>
+    <h3>Ảnh kết quả:</h3>
+    <img src="{{ url_for('static', filename='uploads/' + image_path) }}" alt="Kết quả nhận diện" />
+
+    <br><br>
+    <a href="/">Trang chủ</a>
+</body>
+</html>
